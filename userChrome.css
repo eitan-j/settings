@@ -1,0 +1,21 @@
+/* Find Bar */
+findbar {
+    -moz-box-ordinal-group: 0 !important;
+    /*direction: rtl !important; */
+    /* uncomment for speedy boi*/
+  transition-property:        unset !important;
+  transition-duration:        unset !important;
+  transition-timing-function: unset !important;
+  
+    /* These two lines should fix the border (previously its on the upside, you wanna flip it over)
+  border-top-width:           0                                            !important;
+  border-bottom:              1px solid var(--toolbox-border-bottom-color) !important;
+  */
+}
+
+    findbar .findbar-textbox {
+        direction: ltr !important;
+    }
+/* Find Bar */
+
+#star-button-box {display:none !important;}
